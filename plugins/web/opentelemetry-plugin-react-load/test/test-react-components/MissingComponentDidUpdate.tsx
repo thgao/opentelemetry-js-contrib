@@ -1,7 +1,8 @@
 import * as React from 'react';
+import { BaseOpenTelemetryComponent } from '../../src';
 
-export default class MissingComponentDidUpdate extends React.Component {
-    constructor(props: Readonly<{}>){
+export default class MissingComponentDidUpdate extends BaseOpenTelemetryComponent {
+    constructor(props: Readonly<any>){
         super(props);
     }
 
